@@ -1,0 +1,7 @@
+##https://www.acmicpc.net/problem/2562
+
+n=[]
+for i in range(9):
+    n.append(int(input()))
+print(max(n))
+print(n.index(max(n))+1)
